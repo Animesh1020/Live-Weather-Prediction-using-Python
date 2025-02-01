@@ -1,21 +1,23 @@
-# U-Mail: A GUI-Based Email Client
+# Live Weather Forecast using Python
 
 ## Overview
-U-Mail is a feature-rich email client built with Tkinter, Firebase, and OpenAI API. It provides user authentication, email composition, inbox management, and AI-powered message formatting. Designed for ease of use, U-Mail allows users to securely send, receive, and organize emails with a modern, intuitive interface.
+This Weather App is a Python-based desktop application developed with PyQt5. It enables users to access real-time weather data for any location by integrating with the World Weather Online API. The application provides crucial weather details, including temperature, weather conditions, humidity, wind speed, and visibility.
 
 ## Features
-- **User Authentication**: Secure sign-up and login with Firebase.
-- **Compose & Send Emails**: Draft and send emails using a simple GUI.
-- **Inbox Management**: View received emails in an organized list.
-- **AI-Powered Message Formatting**: Utilize OpenAI's API to enhance email content.
-- **Password Strength Validation**: Ensures strong passwords during account creation.
-- **Rich Text Formatting**: Options for bold, italic, underline, and bullet points.
-- **Responsive & Animated UI**: Includes a sliding panel for enhanced user experience.
+- **Intuitive GUI**: Built with PyQt5 for a smooth user experience.
+- **Real-Time Weather Data**: Fetches the latest weather updates.
+- **Detailed Weather Information**:
+  - Temperature
+  - Weather conditions
+  - Humidity
+  - Wind speed
+  - Visibility
+- **Search Functionality**: Easily look up weather conditions for different locations.
+- **Lightweight & Responsive**: Optimized for efficiency and performance.
 
 ## Installation
 ### Prerequisites
-Ensure you have Python installed along with the required dependencies.
-
+Ensure Python is installed on your system along with the required dependencies.
 
 
 ### Install Dependencies
@@ -24,31 +26,29 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Run the application with:
+Run the application using:
 ```sh
-python u_mail.py
+python weather_app.py
 ```
 ### Steps:
-1. Sign up or log in using a valid email and password.
-2. Navigate to the compose section to write an email.
-3. Use AI assistance to improve message quality.
-4. Send and manage emails seamlessly.
+1. Enter a location in the input field.
+2. Click the "Search" button.
+3. View the real-time weather details displayed on the screen.
 
-## Configuration
-To enable Firebase authentication, replace the `firebaseConfig` in the script with your Firebase project credentials. Similarly, for AI-powered features, insert your OpenAI API key.
+## API Key
+To use this application, you need an API key from World Weather Online. Replace the placeholder API key in the script with your own:
+```python
+api_key = "your_api_key_here"
+```
 
 ## Dependencies
-- `tkinter`
-- `customtkinter`
-- `pyrebase`
-- `requests`
-- `openai`
+- **Python 3.x**
+- **PyQt5** (for GUI)
+- **Requests** (for API calls)
 
-To install manually:
+To install manually, run:
 ```sh
-pip install tkinter customtkinter pyrebase requests openai
+pip install PyQt5 requests
 ```
 
 
-## Author
-Your Name - [GitHub Profile](https://github.com/yourusername)
