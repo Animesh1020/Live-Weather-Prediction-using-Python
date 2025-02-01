@@ -1,1 +1,1 @@
-# Live-Weather-Prediction-using-Java-
+# Live Weather Prediction using Java
