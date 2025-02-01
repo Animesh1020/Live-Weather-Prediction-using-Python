@@ -4,20 +4,27 @@ Overview
 The Weather App is a Python-based desktop application built using PyQt5. It allows users to retrieve real-time weather data for any location by integrating with the World Weather Online API. The application displays essential weather details such as temperature, weather conditions, humidity, wind speed, and visibility.
 Features
 
+
 User-friendly graphical interface using PyQt5
 
 Fetches real-time weather data
 
 Displays:
 
-Temperature
-Weather conditions
-Humidity
-Wind speed
-Visibility
-Easy-to-use search functionality
-Lightweight and responsive design
 
+Temperature
+
+Weather conditions
+
+Humidity
+
+Wind speed
+
+Visibility
+
+Easy-to-use search functionality
+
+Lightweight and responsive design
 Installation
 Prerequisites
 Ensure you have Python installed on your system. You also need to install the required dependencies.
